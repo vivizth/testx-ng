@@ -8,9 +8,6 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
-  "stackblitz": {
-    "startCommand": "npm start"
-  },
   "prettier": {
     "printWidth": 100,
     "singleQuote": true,
@@ -33,7 +30,6 @@
     "@angular/core": "^20.3.0",
     "@angular/forms": "^20.3.0",
     "@angular/platform-browser": "^20.3.0",
-    "@angular/router": "^20.3.0",
     "dayjs": "^1.11.5",
     "decimal.js": "^10.3.1",
     "i18n-iso-countries": "^6.8.0||^7.5.0",

@@ -1,5 +1,4 @@
 import { Component, signal, TemplateRef, ViewChild } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
 import {
   FormGroup,
   FormBuilder,
@@ -30,7 +29,6 @@ import { NxSmallStageModule } from '@allianz/ng-aquila/small-stage';
 @Component({
   selector: 'app-root',
   imports: [
-    RouterOutlet,
     NxButtonModule,
     NxCheckboxModule,
     NxDocumentationIconModule,
